@@ -44,4 +44,8 @@ data = json.loads(r.content)
 print(data)
 ```
 
+## Build docker image
+```shell script
+docker build -t ml_service .
+```
 
